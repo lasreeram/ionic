@@ -1,0 +1,9 @@
+ionic cordova plugin add cordova-plugin-googleplus --save --variable REVERSED_CLIENT_ID=com.googleusercontent.apps.800975707574-7ibj240k3occotlao32573vpbjbpqt1a --variable WEB_APPLICATION_CLIENT_ID=800975707574-jaaroiik3tj8ie12devfd5i3rt3mn3au.apps.googleusercontent.com
+
+cordova plugin add cordova-plugin-googleplus@4.0.5 --save --variable REVERSED_CLIENT_ID=com.googleusercontent.apps.800975707574-7ibj240k3occotlao32573vpbjbpqt1a --variable WEB_APPLICATION_CLIENT_ID=800975707574-jaaroiik3tj8ie12devfd5i3rt3mn3au.apps.googleusercontent.com
+
+cordova plugin update cordova-plugin-googleplus@4.0.5 --save --variable REVERSED_CLIENT_ID=com.googleusercontent.apps.800975707574-7ibj240k3occotlao32573vpbjbpqt1a --variable WEB_APPLICATION_CLIENT_ID=800975707574-jaaroiik3tj8ie12devfd5i3rt3mn3au.apps.googleusercontent.com
+
+cordova plugin remove cordova-plugin-googleplus --save --variable REVERSED_CLIENT_ID=com.googleusercontent.apps.800975707574-7ibj240k3occotlao32573vpbjbpqt1a --variable WEB_APPLICATION_CLIENT_ID=800975707574-jaaroiik3tj8ie12devfd5i3rt3mn3au.apps.googleusercontent.com
+
+cordova plugin add https://github.com/EddyVerbruggen/cordova-plugin-googleplus --save REVERSED_CLIENT_ID=com.googleusercontent.apps.800975707574-7ibj240k3occotlao32573vpbjbpqt1a --variable WEB_APPLICATION_CLIENT_ID=800975707574-jaaroiik3tj8ie12devfd5i3rt3mn3au.apps.googleusercontent.com
