@@ -53,6 +53,18 @@ export class Tab2Page {
       })
   }
 
+  doGoogleLogout(){
+    this.googlePlus.logout()
+    .then(res => {
+      //user logged out so we will remove her from the NativeStorage
+      this.nativeStorage.remove('google_user');
+      console.log("removed google_user");
+    }, err => {
+      console.log(err);
+    });
+  }
+
+
   async presentAlert() {
     const alert = await this.alertController.create({
        message: 'Cordova is not available on desktop. Please try this in a real device or in an emulator.',
