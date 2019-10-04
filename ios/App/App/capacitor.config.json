@@ -1,0 +1,7 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "io.ionic.collabjunc",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www"
+}

@@ -1,7 +1,8 @@
 {
   "name": "io.ionic.collabjunc",
   "integrations": {
-    "cordova": {}
+    "cordova": {},
+    "capacitor": {}
   },
   "type": "angular"
 }
