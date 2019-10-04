@@ -27,6 +27,9 @@ On cloud DNS:
 	- Added record CNAME for the domain name collab-junction.com
 	- Google cloud added the NS records with multiple name servers. Updated google domains with the Name server records
 
+On cloud API&Services console
+	- Setup OAuth Consent screen where you set up the project name that the signed in user sees, provide support email, load application logo
+	- For each of the APIs (Android, IOS and Web) add filtering rules. For example the 'Identity Toolkit API' is the only API allowed. Restricting the API is important to prevent unintended use.
 
 
 Setting up Development Environment in Ubuntu
@@ -132,6 +135,8 @@ ionic cordova build ios
 ## TODO Items:
 - TODO: directly serve the app on the simulator without using XCODE
 - TODO: setup android simulator
+- TODO: restrict my API key to specific Android applications
 - TODO: Build Webapi spec using swagger
+- TODO: Design Application logo (and set it up on the OAUTH consent screen)
 - TODO: Setup local flask-mongodb on ubuntu
 
