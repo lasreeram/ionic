@@ -132,6 +132,50 @@ Setting up Development environment on MAC
 ionic cordova build ios
 
 
+Vrindas-MacBook-Air:ios vrindasreeram$ ionic info
+
+Ionic:
+
+   Ionic CLI                     : 5.4.1 (/usr/local/lib/node_modules/ionic)
+   Ionic Framework               : @ionic/angular 4.9.1
+   @angular-devkit/build-angular : 0.801.3
+   @angular-devkit/schematics    : 8.1.3
+   @angular/cli                  : 8.1.3
+   @ionic/angular-toolkit        : 2.0.0
+
+Capacitor:
+
+   Capacitor CLI   : 1.2.1
+   @capacitor/core : 1.2.1
+
+Cordova:
+
+   Cordova CLI       : 9.0.0 (cordova-lib@9.0.1)
+   Cordova Platforms : ios 5.0.1
+   Cordova Plugins   : cordova-plugin-ionic-keyboard 2.2.0, cordova-plugin-ionic-webview 4.1.2, (and 6 other plugins)
+
+Utility:
+
+   cordova-res : 0.6.0 (update available: 0.7.0)
+   native-run  : 0.2.8 
+
+System:
+
+   ios-deploy : 1.9.4
+   ios-sim    : 8.0.2
+   NodeJS     : v12.10.0 (/usr/local/Cellar/node/12.10.0/bin/node)
+   npm        : 6.11.3
+   OS         : macOS High Sierra
+   Xcode      : Xcode 9.4.1 Build version 9F2000
+
+
+  ───────────────────────────────────────────────
+
+     Ionic CLI update available: 5.4.1 → 5.4.2
+           Run npm i -g ionic to update
+
+  ───────────────────────────────────────────────
+
 ## TODO Items:
 - TODO: directly serve the app on the simulator without using XCODE
 - TODO: setup android simulator

@@ -5,6 +5,7 @@ import { Router } from '@angular/router';
 import { NativeStorage } from '@ionic-native/native-storage/ngx';
 import { StatusBar } from '@ionic-native/status-bar/ngx';
 
+
 @Component({
   selector: 'app-root',
   templateUrl: 'app.component.html'
@@ -28,10 +29,12 @@ export class AppComponent {
       .then( data => {
         //user is previously logged and we have his data
         //we will let him access the app
-        this.router.navigate(["/tabs/tabs2"]);
+        console.log( "google user available. navigate to dash")
+        this.router.navigate(["dash"]);
         this.splashScreen.hide();
       }, err => {
-        this.router.navigate(["/tabs"]);
+        console.log( "google user not logged in, redirect to login")
+        this.router.navigate(["login"]);
         this.splashScreen.hide();
       })
       this.statusBar.styleDefault();

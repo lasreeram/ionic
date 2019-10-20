@@ -58,7 +58,7 @@ export class Tab2Page {
     .then(res => {
       //user logged out so we will remove her from the NativeStorage
       this.nativeStorage.remove('google_user');
-      console.log("removed google_user");
+      console.log("removed google_user!");
     }, err => {
       console.log(err);
     });
