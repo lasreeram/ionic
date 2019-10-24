@@ -23,6 +23,12 @@
           </ion-buttons>
           <ion-title>Dash</ion-title>
         </ion-toolbar>
+        <ion-list *ngFor="let order of orders">
+             <ion-item (click)="buttonClick(order.id)">
+              <ion-label>{{order.label}}</ion-label>
+            </ion-item>
+        </ion-list>
+
       </ion-header>
       <!-- <ion-content padding>
         <ion-button expand="block" onclick="openMenu()">Open Menu</ion-button>

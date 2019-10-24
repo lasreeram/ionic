@@ -11,6 +11,13 @@ import { NativeStorage } from '@ionic-native/native-storage/ngx';
 })
 export class DashPage implements OnInit {
 
+  orders = [
+      
+          { "label": "order1", id:1}, 
+          { "label": "order2", id:2},
+          { "label": "order3", id:3},
+        ];
+
   constructor(
     private googlePlus: GooglePlus,
     private nativeStorage: NativeStorage,
@@ -38,6 +45,11 @@ export class DashPage implements OnInit {
       console.log( "google user not logged in, redirect to login")
       this.router.navigate(["login"]);
     })
+  }
+
+  buttonClick(id: number){
+    console.log("got a click " + id);
+    this.router.navigate(["orderdetail"])
   }
 
 }

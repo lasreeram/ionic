@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>orderdetail</ion-title>
+  </ion-toolbar>
+  <ion-back-button></ion-back-button>
+</ion-header>
+
+<ion-content>
+    <ion-item>
+        <ion-label position="stacked">Descripition</ion-label>
+        <ion-textarea>{{order.description}}</ion-textarea>
+    </ion-item>
+
+    <ion-item>
+        <ion-label position="stacked">Kitchen Address</ion-label>
+        <ion-input>{{order.address_1}}</ion-input>
+        <ion-input>{{order.address_2}}</ion-input>
+        <ion-input>{{order.city}}</ion-input>
+        <ion-input>{{order.state}}</ion-input>
+        <ion-input>{{order.zip}}</ion-input>
+    </ion-item>
+
+</ion-content>

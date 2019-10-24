@@ -32,6 +32,7 @@ export class LoginPage {
       })
       .then(user => {
         //save user data on the native storage
+        console.log( user);
         this.nativeStorage.setItem('google_user', {
           name: user.displayName,
           email: user.email,

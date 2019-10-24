@@ -5,22 +5,12 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { IonicModule } from '@ionic/angular';
 
-import { DashPage } from './dash.page';
-
+import { OrderdetailPage } from './orderdetail.page';
 
 const routes: Routes = [
   {
     path: '',
-    redirectTo: '/dash',
-    pathMatch: 'full'
-  },
-  {
-    path: '',
-    component: DashPage,
-    children: [
-      {path: 'signout', loadChildren: '../signout/signout.module#SignoutPageModule'},
-      { path: 'orderdetail', loadChildren: '../orderdetail/orderdetail.module#OrderdetailPageModule' }
-    ]
+    component: OrderdetailPage
   }
 ];
 
@@ -31,7 +21,6 @@ const routes: Routes = [
     IonicModule,
     RouterModule.forChild(routes)
   ],
-  declarations: [DashPage]
+  declarations: [OrderdetailPage]
 })
-export class DashPageModule {
-}
+export class OrderdetailPageModule {}
